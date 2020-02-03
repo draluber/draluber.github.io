@@ -4,6 +4,7 @@
     font-family: sans-serif;
     margin: 0 0 0 0 ;
     padding: 0 0 0 0 ;
+    opacity: 0.70;
   }
 
 .rond{
@@ -32,10 +33,57 @@ aside header{
 }
 aside h2 {
   text-align : center;
+  text-transform: uppercase;
   background-color: black;
+  height: 45px;
+  padding-top: 10px;
   color:var(--base);
-  opacity: 0.7;
 }
 aside p{
   padding: 0 20px 0 20px;
+}
+article{
+  padding-left: 20px;
+  padding-top: 120px;
+}
+article header h1{
+  font-size: 40px;
+  padding-bottom: 0px;
+  margin-bottom: 0px;
+
+}
+article header h3{
+  padding-top: 0px;
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+article header hr{
+  background-color: var(--base);
+  width: 50px;  
+  margin-top: 0px;
+  padding-top: 0px;
+
+}
+article header h1 span{
+  color:var(--base);
+}
+article section h2{
+  margin-bottom: 0px;
+  padding-bottom: 0px;
+}
+article section h2 i{
+  color: var(--base);
+}
+article section hr{
+  padding-bottom: 0px;
+}
+article section{
+  text-transform: uppercase;
+  
+}
+hr {
+  height: 2px;
+  background-color: var(--base);
+  border: none;
+
 }
