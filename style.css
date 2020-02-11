@@ -145,6 +145,7 @@ h2 i{
   padding-right: 2em;
 }
 main article section article{
+  padding-top: 0px;
   display: flex;
 }
 main article section article section{
