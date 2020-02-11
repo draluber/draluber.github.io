@@ -7,7 +7,6 @@ body{
     opacity: 0.70;
 }
 #rond{
-    transform: rotate(90deg);
     width:215px;
     height:215px;
     overflow:hidden;
@@ -145,7 +144,17 @@ padding-bottom: 0em;
 h2 i{
   padding-right: 2em;
 }
-@media screen and (max-width: 880px) {
+main article section article{
+  display: flex;
+}
+main article section article section{
+  margin-top: 0px;
+  padding-top: 0px;
+  margin-right: auto;
+  padding-right:auto;
+}
+
+@media only screen and (max-width: 880px) {
   main {
    display: block;
   }
