@@ -1,125 +1,34 @@
 main {
   font-family: sans-serif;
   font-size: 15px;
-  opacity: 0.70;
   display: flex;
   width: 900px;
   border: 1px solid black;
   margin: auto ;
 }
-#rond {
-    width:215px;
-    height:215px;
-    overflow:hidden;
-    border-radius:50%;
-    box-shadow: 0px 0px 2px 2px #343434;
-}
-h1,h2,h3 {
+h1,h2 {
   text-transform: uppercase;
 }
-main aside {
-  width: 33%;
-  background-color: rgb(254,202,7); ;
-  margin-left: 0;
-  padding-left: 0;
-}
-main aside header{
-  text-align : center;
-  margin : 0 auto 4em auto;
-  padding-top:4em;
-}
-#sport{
-    display: block;
-	  overflow:hidden;
-    margin-left: auto;
-    margin-right: auto ;
-}
-main aside h2 {
-  text-align : center;
-  background-color: black;
-  color: rgb(254,202,7);
-  height: 1.2em;
-  padding-top: 0.2em;
-  vertical-align: middle;
-  line-height: 1.2em;
-}
-main aside p{
-  padding: 0 1em 0 1em;
-  display : flex;
-}
-article{
-  padding-left: 1.2em;
-  padding-top: 8em;
-}
-article header h1{
+h1{
   font-size: 3em;
   padding-bottom: 0px;
   margin-bottom: 0px;
-
 }
-article header h3{
-  padding-top: 0px;
-  margin-top: 0px;
-  margin-bottom: 0px;
-}
-hr {
-  height: 2px;
-  background-color: rgb(254,202,7);;
-  border: none;
-}
-article header hr{
-  background-color: rgb(254,202,7);;
-  width: 3.5em;  
-  margin-top: 0px;
-  margin-right: 95%;
-  padding-top: 0px;
-
-}
-article header h1 span{
+h1 span{
   color: rgb(254,202,7);
 }
-article section h2{
+h2{
   margin-bottom: 0px;
   padding-bottom: 0px;
 }
-article section h2 i{
- color: rgb(254,202,7);;
+h2 i{
+ color: rgb(254,202,7);
+ padding-right: 1em;
 }
-article section hr{
-  padding-bottom: 0px;
-  margin-right: 4em;
-}
-article section{
-  margin-bottom: 2em;
-}
-article header{
-  display: block;
-}
-ul{
-	padding-left: 2em;
-}
-li {
-	list-style-image: url("img/puce1.png");
-}
-li:first-child {
-	list-style-image: url("img/puce2.png");
-}
-ul li article{
-  display: flex;
-  justify-content: space-between;
-  padding-left: 0.2em;
-  margin-top: 0px;
+h3{
   padding-top: 0px;
-
-}
-li article header{
-  min-width: 10em;
-}
-li article section{
-	margin-top: 0px;
-	padding-top: 0px;
-  margin-right: 2em;
-	padding-right: 2em;
+  margin-top: 0px;
+  margin-bottom: 0px;
 }
 h4{
   font-size: 0.8em;
@@ -134,23 +43,106 @@ margin-top: 1em;
 padding-top: 0em;
 padding-bottom: 0em;
 }
-h2 i{
-  padding-right: 2em;
+aside {
+  width:33%;
+  background-color: rgb(254,202,7);
+  margin-left: 0;
+  padding-left: 0;
 }
-main article section article{
+#photo{
+  text-align : center;
+  margin: 3em auto 3em auto;
+}
+#rond {
+    width: 130px;
+    height: 130px;
+    overflow:hidden;
+    border-radius:50%;
+    box-shadow: 0px 0px 2px 2px #343434;
+}
+.asidetitre {
+  text-align : center;
+  background-color: black;
+  color: rgb(254,202,7);
+  height: 1.2em;
+  padding-top: 0.2em;
+  vertical-align: middle;
+  line-height: 1.2em;
+}
+.asidepcontact{
+  padding: 0 2em 3em 2em;
+}
+.asidepapropos{
+  padding: 1em 2em 14em 2em;
+}
+.asideploisirs{
+  display: block;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto ;
+  padding-top: 1em;
+}
+article{
+  width: 77%;
+  padding-left: 3em;
+  padding-top: 2em;
+}
+#titre{
+padding-bottom: 4em;
+}
+hr {
+  height: 2px;
+  background-color: rgb(254,202,7);;
+  border: none;
+}
+#titre hr{
+  background-color: rgb(254,202,7);
+  width: 3.5em;  
+  margin-top: 0px;
+  margin-right: 95%;
   padding-top: 0px;
-  display: flex;
+
 }
-main article section article section{
+article section hr{
+  padding-bottom: 0px;
+  margin-right: 4em;
+}
+article section{
+  margin-bottom: 2em;
+}
+ul{
+	padding-left: 2em;
+}
+li {
+	list-style-image: url("img/puce1.png");
+}
+li:first-child {
+	list-style-image: url("img/puce2.png");
+}
+.bloc{
+  display: flex;
+  padding-left: 0.2em;
   margin-top: 0px;
   padding-top: 0px;
+  padding-bottom: 2em;
+}
+.titrebloc{
+  width: 33%;
+  padding-top: 0px;
+}
+.contenubloc{
+  width: 77%;
+	margin-top: 0px;
+	padding-top: 0px;
+  margin-right: 2em;
+  padding-right: 2em;
   margin-right: auto;
 }
-main article section article  h2{
-  display: none;
+#recommandations{
+  margin-right: 8em;
+  display: flex;
+  justify-content: space-between;
 }
-
-
 @media only screen and (max-width: 930px) {
   main {
    display: block;
