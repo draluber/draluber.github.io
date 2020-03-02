@@ -82,10 +82,11 @@ aside {
   margin-right: auto ;
   padding-top: 1em;
 }
-article{
+main article{
   width: 77%;
   padding-left: 3em;
   padding-top: 2em;
+  padding-right: 2em;
 }
 #titre{
 padding-bottom: 4em;
@@ -121,8 +122,10 @@ li:first-child {
 }
 .bloc{
   display: flex;
+  width: 100%;
   padding-left: 0.2em;
   margin-top: 0px;
+  margin-right: 2em;
   padding-top: 0px;
   padding-bottom: 2em;
 }
@@ -136,51 +139,115 @@ li:first-child {
 	padding-top: 0px;
   margin-right: 2em;
   padding-right: 2em;
-  margin-right: auto;
+  margin-right: 2em;
 }
 #recommandations{
   margin-right: 8em;
   display: flex;
   justify-content: space-between;
 }
-@media only screen and (max-width: 930px) {
+@media only screen and (max-width: 780px) {
   body{
+    width: 100%;
     margin: 0 0 0 0;
+    padding: 0 0 0 0;
   }
   main {
+    width: 100%;
     padding: 0 0 0 0;
+    margin: 0 0 0 0;
    display: block;
   }
   main aside{
-    width: 100%;
+  width: 100%;
+  margin: 0 0 0 0;
   }
-  main aside header{
-    margin-bottom: 2em;
-    padding-top: 2em;
-    padding-bottom: 2em;
+  main article{
+    width: 80%;
+    margin:0 0 0 0;
+  }
+  article section{
+    width: 100%;
+    margin: 0 0 0 0;
+
   }
   li article{
     display: block;
      }
+  .bloc{
+    width: 100%;
+    margin: 0 0 0 0;
+  }
      #photo{
       margin: 0 0 0 0;
       padding-top: 2em;
     }
+    .contenubloc{
+      width: 100%;
+      margin: 0 0 0 0;
+
+      padding-right: 2em;
+    }
+    #recommandations{
+       margin: 0 0 0 0;
+    }
 }
-@media only screen and (max-width: 576px)
+@media only screen and (max-width: 450px)
 {
   body{
+    width: 100%;
  margin: 0 0 0 0;
   }
   main{
+    width: 100%;
+    font-size: 10px;
     display: block;
     margin: 0 0 0 0;
+  }
+  h1{
+    font-size: 2em;
+  }
+  h2{
+    font-size: 1.5em;
+  }
+  h3{
+    font-size: 1.3em;
+  }
+  h4{
+    font-size: 1em;
   }
   #photo{
     margin: 0 0 0 0;
     padding-top: 2em;
   }
-  article{
-    padding-left: 1em;
+  #titre{
+    padding-left: 0;
+  }
+  main aside{
+    width: 100%;
+    margin: 0 0 0 0;
+  }
+  main article{
+    width:80%;
+    margin: 0 0 0 0;
+  }
+  article section{
+    padding-right: 0;
+    margin:0 0 0 0;
+  }
+  .bloc{
+    width: 100%;
+    margin: 0 0 0 0;
+  }
+  .titrebloc{
+    width: 33%;
+  }
+  .contenubloc{
+    width:77%;
+    margin: 0 0 0 0;
+  }
+
+  #recommandations{
+    margin:0 0 0 0;
   }
 }
