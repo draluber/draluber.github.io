@@ -64,6 +64,7 @@ aside {
 #rond {
   width: 150px;
   height: auto;   
+  margin-top: -20px;
 }
 .asidetitre {
   text-align : center;
